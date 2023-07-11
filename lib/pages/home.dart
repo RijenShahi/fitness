@@ -21,12 +21,22 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 20),
                 child: Text(
-                  'Catagories',
+                  'Category',
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 18,
                       fontWeight: FontWeight.bold),
                 ),
+              ),
+              SizedBox(
+                height: 15,
+              ),
+              Container(
+                height: 150,
+                color: Colors.blueGrey,
+                child: ListView.builder(itemBuilder: (context, index) {
+                  return Container();
+                }),
               )
             ]
 
